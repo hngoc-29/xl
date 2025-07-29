@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <title></title>
+</head>
+<body>
+  <h1>Xin lỗi</h1>
+  <div>
+    <p id='content'></p>
+  </div>
+  <div class='wrapper-btn'>
+    <button class='btn' onclick="handleSpeed(-50)">+</button>
+    <button class='btn' onclick="handleSpeed(+50)">-</button>
+    <img onclick="changeAudio()" id='toggle' src='./assets/play.png' />
+  </div>
+  <audio id='au' src='./assets/phepmau.mp3'></audio>
+  <script src="script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
