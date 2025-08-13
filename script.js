@@ -1,7 +1,7 @@
 const content = document.getElementById('content');
 const au = document.getElementById('au');
 let time = 100;
-const nd = ['Lớp có gái cứt được.', 'Cứ mơ mộng tiếp đi.', 'Có cái coin card!🤣'.];
+const nd = ['Lớp có gái cứt được.', 'Cứ mơ mộng tiếp đi.', 'Có cái coin card!🤣'];
 
 let currentSentenceIndex = 0;
 let currentCharacterIndex = 0;
