@@ -1,7 +1,7 @@
 const content = document.getElementById('content');
 const au = document.getElementById('au');
 let time = 100;
-const nd = ['Tau xin lỗi vì đã nói sai sự thật về mi.', 'Mi cũng không cần lo lắm mô vì tau chỉ nói cho thằng Đăng xong hấn trêu thằng giang thôi.', 'Với lại con trà hấn cũng nói là nỏ được nhắn.', `I'm sorry.`];
+const nd = ['Lớp có gái cứt được.', 'Cứ mơ mộng tiếp đi.', 'Có cái coin card!🤣'.];
 
 let currentSentenceIndex = 0;
 let currentCharacterIndex = 0;
